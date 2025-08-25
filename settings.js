@@ -9,10 +9,10 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
-global.packname = 'Bot WhatsApp'
+global.owner = ['6283125677749'] //['628','628'] 2 owner atau lebih
+global.author = 'Reii-Hebat'
+global.botname = 'Reii xc'
+global.packname = 'Reii ah'
 global.listprefix = ['+','!','.']
 
 /*
@@ -28,8 +28,8 @@ global.pairing_code = true
 global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
-	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
-	thumbnailUrl: 'https://telegra.ph/file/fe4843a1261fc414542c4.jpg',
+	anonim: 'https://graph.org/file/883c1e10b9ca60c527423-e5b7d0ef942e9374fd.jpg',
+	thumbnailUrl: 'https://graph.org/file/bcf8d2ba1aac1049e14e2-6a5b2808d7204afdb7.jpg',
 	thumbnail: fs.readFileSync('./src/media/naze.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/vnd.openxmlformats-officedocument.presentationml.presentation','application/vnd.openxmlformats-officedocument.wordprocessingml.document','application/pdf'],
@@ -38,8 +38,8 @@ global.fake = {
 global.my = {
 	yt: 'https://youtube.com/c/Nazedev',
 	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
-	ch: '120363250409960161@newsletter',
+	gc: 'https://chat.whatsapp.com/BDKQ6me7ThG4NwtNtrcSAc?mode=ac_t',
+	ch: '120363418575245436@newsletter',
 }
 
 global.limit = {
@@ -90,3 +90,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
